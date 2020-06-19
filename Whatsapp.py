@@ -8,7 +8,7 @@ class Whatsapp:
         client = Client(account_sid)
 
         from_whatsapp_number = 'whatsapp:+14155238886'
-        to_whatsapp_number = 'whatsapp:+85261244686'
+        to_whatsapp_number = 'whatsapp:+852xxxxxxxx'
 
         self.client.messages.create(body='HI Andy Yeung',
                                     from_=from_whatsapp_number,
